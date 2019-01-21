@@ -12,7 +12,8 @@ class InputField extends Component {
       text: "Button",
       icon: "Your name",
       color: "Orange",
-      placeholder: "Placeholder"
+      placeholder: "Placeholder",
+      type: "text"
         };
   }
 
@@ -25,7 +26,7 @@ onFocus = () => {
   render() {
     return (
       <div className={this.state.focused ? "active InputFieldWrapper" : "InputFieldWrapper"}>
-       <input type="text" class="txt" onFocus={this.onFocus} onBlur={this.onBlur} placeholder={this.props.placeholder}></input>
+       <input type={this.props.type} class="txt" onFocus={this.onFocus} onBlur={this.onBlur} placeholder={this.props.placeholder}></input>
        <div className={ "Bg"+this.props.color + " " + "icon" }>{this.props.icon}</div>
        </div>
     );

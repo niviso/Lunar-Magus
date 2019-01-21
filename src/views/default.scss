@@ -38,3 +38,19 @@
     color: white;
     text-shadow: 2px 2px #d71aed;
 }
+
+.FadeIn{
+  animation: fadeIn 1s ease;
+}
+
+
+@keyframes fadeIn{
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
