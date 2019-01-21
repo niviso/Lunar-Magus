@@ -11,6 +11,7 @@ class router extends Component {
   }
   render() {
     return (
+      <div className="App">
       <Router>
       <Switch>
      <Route path="/" exact component={Index} />
@@ -19,6 +20,7 @@ class router extends Component {
 {/*       <Route path="/about/" component={About} />
       <Route path="/users/" component={Users} /> */}
       </Router>
+      </div>
     );
   }
 }

@@ -12,6 +12,7 @@ class Login extends Component {
       <div className="Container FlexCenter Column Background">
       <div className="IndexWrapper FlexCenter Column FadeIn">
       <div className="Header">Lunar Magus</div>
+      <div className="ContentWrapper">
       <InputField icon="Username" placeholder="Your email"/>
       <br/>
       <InputField icon="Password" placeholder="6-digit code"/>
@@ -20,7 +21,7 @@ class Login extends Component {
       <Btn text="New account" icon="🌝"/>
       <Btn text="Log in" icon="✋"/>
       </div>
-      <br/>
+  </div>
       </div>
       </div>
     );
