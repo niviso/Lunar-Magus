@@ -17,3 +17,24 @@
     justify-content: center;
     align-items: center;
 }
+.FillWidth{
+    width: 100%;
+}
+.Column{
+    flex-direction: column;
+}
+.AlignSpace{
+    justify-content: space-between;
+}
+
+.BgBlack{
+    background: black;
+}
+.BgOrange{
+    background: #d71aed;
+}
+.Header{
+    font-size: 5em;
+    color: white;
+    text-shadow: 2px 2px #d71aed;
+}

@@ -6,9 +6,9 @@ class Btn extends Component {
   }
   static get defaultProps() {
     return {
-      text: "Button",
-      icon: "?",
-      color: "black",
+      text: "New button",
+      icon: "+",
+      color: "Black",
       onClick: () => {alert("Yay!")}
     };
   }
@@ -22,7 +22,7 @@ class Btn extends Component {
        <div className="txt">
        {this.props.text}
        </div>
-       <div className={ this.props.color + " " + "icon" }>{this.props.icon}</div>
+       <div className={ "Bg"+this.props.color + " " + "icon" }>{this.props.icon}</div>
        </div>
     );
   }
