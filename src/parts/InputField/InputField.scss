@@ -1,5 +1,5 @@
 
-.btnWrapper{
+.InputFieldWrapper{
     overflow: hidden;
     display: flex;
     justify-content: space-between;
@@ -39,7 +39,7 @@
 
 
 
-.btnWrapper:hover{
+.active{
     box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.4);
 
     .icon{
