@@ -23,6 +23,10 @@ class Login extends Component {
       </div>
   </div>
       </div>
+      <div className="Footer">
+      Trouble loging in? Visit our help page
+      </div>
+
       </div>
     );
   }
