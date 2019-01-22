@@ -6,6 +6,7 @@
 }
 body{
       overflow: hidden;
+      font-size: 1em;
 }
 
 .ContentWrapper{
@@ -18,6 +19,22 @@ body{
 .Container{
     width: 100%;
     height: 100%;
+}
+.RestrictWidth{
+    max-width: 700px;
+}
+.TxtSm{
+    font-size: 0.7em;
+}
+.TxtMd{
+    font-size: 1em;
+}
+.TxtLg{
+    font-size: 1.3em;
+}
+
+.TxtXl{
+    font-size: 1.75em;
 }
 
 .App{
