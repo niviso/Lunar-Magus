@@ -1,36 +1,65 @@
 
-.CheckBoxWrapper{
+
+
+.CheckBox{
     overflow: hidden;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    flex-direction: row;
     align-items: center;
-    width: 3.5em;
+    min-width: 15em;
     height: 3.5em;
     border-radius: 20px;
     transition: 0.5s all ease;
     background: rgba(255,255,255,0.9);
     box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.3);
-    background: white;
     cursor: pointer;
-
-    .Icon{
-        opacity: 0.3;
+    .txt{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 80%;
+        font-size: 1em;
+        opacity: 0.5;
+        cursor: pointer;
+        border:0px;
+        text-align: center;
+        outline: 0px;
+        color: black;
         transition: 0.5s all ease;
-    }
 
-}
+    }
+    .CheckBoxWrapper{
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 3.5em;
+        height: 3.5em;
+        transition: 0.5s all ease;
+        background: rgba(255,255,255,0.9);
+        background: white;
+        cursor: pointer;
 
-.Active{
-    background: green;
-    .Icon{
-        opacity: 1;
-        color: white;
+        .Icon{
+            opacity: 0.3;
+            transition: 0.5s all ease;
+        }
+
     }
-}
-.Deactivated{
-    background: red;
-    .Icon{
-        opacity: 1;
-        color: white;
+    .Active{
+        background: green;
+        .Icon{
+            opacity: 1;
+            color: white;
+        }
     }
-}
+    .Deactivated{
+        background: red;
+        .Icon{
+            opacity: 1;
+            color: white;
+        }
+    }
+  }

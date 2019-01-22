@@ -24,8 +24,11 @@ class CheckBox extends Component {
   }
   render() {
     return (
-      <div className={this.state.active ? "CheckBoxWrapper Active" : "CheckBoxWrapper Deactivated"} onClick={this._onClick}>
+      <div className="CheckBox" onClick={this._onClick}>
+      <div className="txt">txt</div>
+      <div className={this.state.active ? "CheckBoxWrapper Active" : "CheckBoxWrapper Deactivated"}>
           <div className="Icon">{this.state.active ? "✓" : "✖"}</div>
+       </div>
        </div>
     );
   }
